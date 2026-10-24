@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment files (NEVER commit real secrets)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Database (local dev only)
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker local volumes
+postgres_data/
+
+# Certificates and keys (NEVER commit real keys)
+*.pem
+*.key
+*.p12
+*.pfx
+signing_key.json
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
